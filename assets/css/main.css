@@ -2409,7 +2409,7 @@ input[type="radio"]:focus+label:before {
 
 .icon.alt:before {
 	display: block;
-	font-size: 1.25em;
+	font-size: 3.25em;
 	width: 2em;
 	height: 2em;
 	text-align: center;
@@ -3847,10 +3847,11 @@ body.is-preload #header.alt .logo {
 	padding: 5em 5em 3em 5em;
 	width: calc(100% + 2em);
 	margin: 0 0 3em -2em;
+	justify-content: center;
 }
 
 #footer>* {
-	width: calc(50% - 2em);
+	/* width: calc(50% - 2em); */
 	margin-left: 2em;
 }
 
